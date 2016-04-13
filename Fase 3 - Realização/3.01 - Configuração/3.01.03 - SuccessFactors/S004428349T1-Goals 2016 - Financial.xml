@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE obj-plan-template PUBLIC "-//SuccessFactors, Inc.//DTD Objective Template 4.0//EN" "objective-template_4_0.dtd">
+<obj-plan-template spellchk="false" new-obj-share-status-public="true" instructions-viewdefault="on" alerts-viewdefault="off" cascade-parent-viewdefault="on" cascade-child-viewdefault="on" pager-max-objs-per-page="0" pager-max-page-links="0" pager-max-children-per-parent="0" display-alignment-format="goals" more-details-child-format="original" share-confirm="false" unshare-confirm="false" allow-group-goal="false" goal-tree-link="true" expand-collapse-categories="false" use-text-for-privacy="false" cws-people-role="true" max-goals="15" min-goals="3" max-weight="100.0" max-weight-per-obj="30.0" overwrite-target-population="false" swap-goal-link="true" learning-activity-deep-link="false" show-total-goalscore="true" show-goal-id="false">
+  <obj-plan-id>15</obj-plan-id>
+  <obj-plan-type>Business</obj-plan-type>
+  <obj-plan-name>Goals 2016 - Financial</obj-plan-name>
+  <obj-plan-name lang="ar_SA">أهداف 2016 - المالية</obj-plan-name>
+  <obj-plan-name lang="es_ES">Objetivos 2016-Financieros</obj-plan-name>
+  <obj-plan-name lang="fr_FR">Objectifs de 2016-financiers</obj-plan-name>
+  <obj-plan-name lang="pt_BR">Metas 2016 - Financeira</obj-plan-name>
+  <obj-plan-name lang="tr_TR">Hedefler 2016 - Finansal</obj-plan-name>
+  <obj-plan-name lang="zh_CN">2016年目标-财务</obj-plan-name>
+  <obj-plan-desc><![CDATA[Metas 2015]]></obj-plan-desc>
+  <obj-plan-lastmodified>8/26/15 2:31 PM</obj-plan-lastmodified>
+  <obj-plan-start>01/01/2016</obj-plan-start>
+  <obj-plan-due>12/31/2016</obj-plan-due>
+  <switches>
+    <switch for="turnoff-add-personal-goal-button" value="on" />
+  </switches>
+  <text-replacement for="Instructions">
+    <text lang="ar_SA"><![CDATA[]]></text>
+    <text lang="en_US"><![CDATA[]]></text>
+    <text lang="es_ES"><![CDATA[]]></text>
+    <text lang="fr_FR"><![CDATA[]]></text>
+    <text lang="pt_BR"><![CDATA[]]></text>
+    <text lang="tr_TR"><![CDATA[]]></text>
+    <text lang="zh_CN"><![CDATA[]]></text>
+  </text-replacement>
+  <obj-library name="Biblioteca de Objetivos - Bloco Econômico - 2016" id="40">
+  </obj-library>
+  <category id="cat01" show-total-goalscore="true">
+    <category-name lang="ar_SA"> المالية</category-name>
+    <category-name lang="en_US">Financial</category-name>
+    <category-name lang="es_ES">Financiero</category-name>
+    <category-name lang="fr_FR">Financier</category-name>
+    <category-name lang="pt_BR">Financeira</category-name>
+    <category-name lang="tr_TR">Finansal</category-name>
+    <category-name lang="zh_CN">财务指标</category-name>
+  </category>
+  <field-definition id="control-category-element" type="text" required="true" detail="false" viewdefault="on" showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">فئة</field-label>
+    <field-label lang="en_US">Dimension</field-label>
+    <field-label lang="es_ES">Categoría</field-label>
+    <field-label lang="fr_FR">Catégorie</field-label>
+    <field-label lang="pt_BR">Dimensão</field-label>
+    <field-label lang="tr_TR">Kategori</field-label>
+    <field-label lang="zh_CN">类别</field-label>
+    <field-description lang="ar_SA">فئة</field-description>
+    <field-description lang="en_US">Dimension</field-description>
+    <field-description lang="es_ES">Categoría</field-description>
+    <field-description lang="fr_FR">Catégorie</field-description>
+    <field-description lang="pt_BR">Dimensão</field-description>
+    <field-description lang="tr_TR">Kategori</field-description>
+    <field-description lang="zh_CN">类别</field-description>
+  </field-definition>
+  <field-definition id="library" type="text" required="false" detail="false" viewdefault="on" showlabel="true" reportable="field3" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">كود مكتبة</field-label>
+    <field-label lang="en_US">Library Code</field-label>
+    <field-label lang="es_ES">Code Library</field-label>
+    <field-label lang="fr_FR">code Library</field-label>
+    <field-label lang="pt_BR">Código da Biblioteca</field-label>
+    <field-label lang="tr_TR">Kütüphane Kodu</field-label>
+    <field-label lang="zh_CN">库代码</field-label>
+    <field-description lang="ar_SA">كود مكتبة</field-description>
+    <field-description lang="en_US">Library Code</field-description>
+    <field-description lang="es_ES">Code Library</field-description>
+    <field-description lang="fr_FR">code Library</field-description>
+    <field-description lang="pt_BR">Código da Biblioteca</field-description>
+    <field-description lang="tr_TR">Kütüphane Kodu</field-description>
+    <field-description lang="zh_CN">库代码</field-description>
+  </field-definition>
+  <field-definition id="Fromlibrary" type="text" required="false" detail="false" viewdefault="on" showlabel="true" reportable="field3" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">**</field-label>
+    <field-label lang="en_US">Library generated</field-label>
+    <field-label lang="es_ES">**</field-label>
+    <field-label lang="fr_FR">**</field-label>
+    <field-label lang="pt_BR">**</field-label>
+    <field-label lang="tr_TR">**</field-label>
+    <field-label lang="zh_CN">**</field-label>
+    <field-description lang="ar_SA">**</field-description>
+    <field-description lang="en_US">Library generated</field-description>
+    <field-description lang="es_ES">**</field-description>
+    <field-description lang="fr_FR">**</field-description>
+    <field-description lang="pt_BR">**</field-description>
+    <field-description lang="tr_TR">**</field-description>
+    <field-description lang="zh_CN">**</field-description>
+  </field-definition>
+  <field-definition id="name" type="text" required="true" detail="false" viewdefault="on" showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">الهدف</field-label>
+    <field-label lang="en_US">Name of Goal</field-label>
+    <field-label lang="es_ES">Nombre del Objetivo</field-label>
+    <field-label lang="fr_FR">Intitulé de l'objectif</field-label>
+    <field-label lang="pt_BR">Nome do Indicador</field-label>
+    <field-label lang="tr_TR">Hedef adı</field-label>
+    <field-label lang="zh_CN">目标名称</field-label>
+    <field-description lang="ar_SA">الهدف</field-description>
+    <field-description lang="en_US">Name of Goal</field-description>
+    <field-description lang="es_ES">Nombre del Objetivo</field-description>
+    <field-description lang="fr_FR">Intitulé de l'objectif</field-description>
+    <field-description lang="pt_BR">Nome do Indicador</field-description>
+    <field-description lang="tr_TR">Hedef adı</field-description>
+    <field-description lang="zh_CN">目标名称</field-description>
+  </field-definition>
+  <field-definition id="desc" type="textarea" required="true" detail="false" viewdefault="off" showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">الوصف / صيغة الإحتساب</field-label>
+    <field-label lang="en_US">Description / Calculation Formula</field-label>
+    <field-label lang="es_ES">Descripción/Fórmula de cálculo</field-label>
+    <field-label lang="fr_FR">Description/formule de calcul</field-label>
+    <field-label lang="pt_BR">Descritivo / Fórmula de Cálculo</field-label>
+    <field-label lang="tr_TR">Tanım / Hesaplama Çizelgesi</field-label>
+    <field-label lang="zh_CN">描述/计算公式</field-label>
+    <field-description lang="ar_SA">الوصف / صيغة الإحتساب</field-description>
+    <field-description lang="en_US">Description / Calculation Formula</field-description>
+    <field-description lang="es_ES">Descripción/Fórmula de cálculo</field-description>
+    <field-description lang="fr_FR">Description/formule de calcul</field-description>
+    <field-description lang="pt_BR">Descritivo / Fórmula de Cálculo</field-description>
+    <field-description lang="tr_TR">Tanım / Hesaplama Çizelgesi</field-description>
+    <field-description lang="zh_CN">描述/计算公式</field-description>
+  </field-definition>
+  <field-definition id="weight" type="percent" required="true" detail="false" viewdefault="on" showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">الوزن (٪)</field-label>
+    <field-label lang="en_US">Weight (%)</field-label>
+    <field-label lang="es_ES">Ponderación (%)</field-label>
+    <field-label lang="fr_FR">Poid %</field-label>
+    <field-label lang="pt_BR">Peso (%)</field-label>
+    <field-label lang="tr_TR">Ağırlık (%)</field-label>
+    <field-label lang="zh_CN">权重 （%）</field-label>
+    <field-description lang="ar_SA">الوزن (٪)</field-description>
+    <field-description lang="en_US">Weight (%)</field-description>
+    <field-description lang="es_ES">Ponderación (%)</field-description>
+    <field-description lang="fr_FR">Poid %</field-description>
+    <field-description lang="pt_BR">Peso (%)</field-description>
+    <field-description lang="tr_TR">Ağırlık (%)</field-description>
+    <field-description lang="zh_CN">权重 （%）</field-description>
+    <field-format>###.##</field-format>
+  </field-definition>
+  <field-definition id="metric" type="text" required="true" detail="false" viewdefault="on" showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">القياس (R $، دولار، €، طن،٪، المعلم، الخ)</field-label>
+    <field-label lang="en_US">Measure (R$, US$, €, Tons, %, Milestone, etc.)</field-label>
+    <field-label lang="es_ES">Unidad de Medida (R$, US$, €, Toneladas %, hito, etc.)</field-label>
+    <field-label lang="fr_FR">Mesure (MAD, Ton, %, etc.)</field-label>
+    <field-label lang="pt_BR">Unidade de Medida (R$, US$, €, Tons, %, Milestone, etc.)</field-label>
+    <field-label lang="tr_TR">Ölçü (R$, US$, €, Ton, %, aşama, vb.)</field-label>
+    <field-label lang="zh_CN">衡量指标（雷亚尔、美元、欧元、吨、百分比、阶段等）</field-label>
+    <field-description lang="ar_SA">القياس (R $، دولار، €، طن،٪، المعلم، الخ)</field-description>
+    <field-description lang="en_US">Measure (R$, US$, €, Tons, %, Milestone, etc.)</field-description>
+    <field-description lang="es_ES">Unidad de Medida (R$, US$, €, Toneladas %, hito, etc.)</field-description>
+    <field-description lang="fr_FR">Mesure (MAD, Ton, %, etc.)</field-description>
+    <field-description lang="pt_BR">Unidade de Medida (R$, US$, €, Tons, %, Milestone, etc.)</field-description>
+    <field-description lang="tr_TR">Ölçü (R$, US$, €, Ton, %, aşama, vb.)</field-description>
+    <field-description lang="zh_CN">衡量指标（雷亚尔、美元、欧元、吨、百分比、阶段等）</field-description>
+  </field-definition>
+  <field-definition id="metric-lookup-table" type="table" required="true" detail="false" viewdefault="on" showlabel="false" default-calc-type="interpolate" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">قاعدة الإحتساب</field-label>
+    <field-label lang="en_US">Ruler</field-label>
+    <field-label lang="es_ES">Escala</field-label>
+    <field-label lang="fr_FR">Règle</field-label>
+    <field-label lang="pt_BR">Régua</field-label>
+    <field-label lang="tr_TR">Seviye Cetveli</field-label>
+    <field-label lang="zh_CN">标准</field-label>
+    <field-description lang="ar_SA">قاعدة الإحتساب</field-description>
+    <field-description lang="en_US">Ruler</field-description>
+    <field-description lang="es_ES">Escala</field-description>
+    <field-description lang="fr_FR">Règle</field-description>
+    <field-description lang="pt_BR">Régua</field-description>
+    <field-description lang="tr_TR">Seviye Cetveli</field-description>
+    <field-description lang="zh_CN">标准</field-description>
+    <table-row-label lang="ar_SA">قاعدة الإحتساب</table-row-label>
+    <table-row-label lang="en_US">Ruler</table-row-label>
+    <table-row-label lang="es_ES">Escala</table-row-label>
+    <table-row-label lang="fr_FR">Règle</table-row-label>
+    <table-row-label lang="pt_BR">Régua</table-row-label>
+    <table-row-label lang="tr_TR">Seviye Cetveli</table-row-label>
+    <table-row-label lang="zh_CN">标准</table-row-label>
+    <table-column id="rating" type="number" required="true" width="5" order="asc" cascade-update="push-down">
+      <column-label lang="ar_SA">المستوى</column-label>
+      <column-label lang="en_US">Level</column-label>
+      <column-label lang="es_ES">Nivel</column-label>
+      <column-label lang="fr_FR">Niveau</column-label>
+      <column-label lang="pt_BR">Nível</column-label>
+      <column-label lang="tr_TR">Seviye</column-label>
+      <column-label lang="zh_CN">等级</column-label>
+      <column-description>Score</column-description>
+    </table-column>
+    <table-column id="achievement" type="number" required="true" width="20" cascade-update="push-down">
+      <column-label lang="ar_SA">الصنف الرقمي</column-label>
+      <column-label lang="en_US">Numeric Range</column-label>
+      <column-label lang="es_ES">Rango Numérico</column-label>
+      <column-label lang="fr_FR">Plage numérique</column-label>
+      <column-label lang="pt_BR">Alcance Numérico</column-label>
+      <column-label lang="tr_TR">Sayısal aralık</column-label>
+      <column-label lang="zh_CN">数值范围</column-label>
+      <column-description>Target Level</column-description>
+      <field-format>###.#########</field-format>
+    </table-column>
+    <table-column id="description" type="textarea" required="false" width="70" cascade-update="push-down">
+      <column-label>Descrição</column-label>
+      <column-label lang="ar_SA">الوصف</column-label>
+      <column-label lang="en_US">Description</column-label>
+      <column-label lang="es_ES">Descripción</column-label>
+      <column-label lang="fr_FR">Description</column-label>
+      <column-label lang="pt_BR">Descrição</column-label>
+      <column-label lang="tr_TR">Tanım</column-label>
+      <column-label lang="zh_CN">描述</column-label>
+      <column-description>Description</column-description>
+    </table-column>
+    <rating-scale rate-on-form-option="false" default="true">
+      <rating-scale-id>MetricLookup</rating-scale-id>
+    </rating-scale>
+  </field-definition>
+  <field-definition id="actual-achievement" type="number" required="false" detail="false" viewdefault="on" showlabel="true" reportable="field2" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">النتائج التي تم الحصول عليها الصنف الرقمي</field-label>
+    <field-label lang="en_US">Obtained Result (Numeric Range)</field-label>
+    <field-label lang="es_ES">Resultado Obtenido (Rango Numérico)</field-label>
+    <field-label lang="fr_FR">Résultat Obtenu (plage numérique)</field-label>
+    <field-label lang="pt_BR">Resultado Obtido (Alcance Numérico)</field-label>
+    <field-label lang="tr_TR">Sonuç (Sayısal aralık)</field-label>
+    <field-label lang="zh_CN">取得结果（数值范围）</field-label>
+    <field-description lang="ar_SA">النتائج التي تم الحصول عليها الصنف الرقمي</field-description>
+    <field-description lang="en_US">Obtained Result (Numeric Range)</field-description>
+    <field-description lang="es_ES">Resultado Obtenido (Rango Numérico)</field-description>
+    <field-description lang="fr_FR">Résultat Obtenu (plage numérique)</field-description>
+    <field-description lang="pt_BR">Resultado Obtido (Alcance Numérico)</field-description>
+    <field-description lang="tr_TR">Sonuç (Sayısal aralık)</field-description>
+    <field-description lang="zh_CN">取得结果（数值范围）</field-description>
+    <field-format>###.#########</field-format>
+  </field-definition>
+  <field-definition id="rating" type="number" required="false" detail="false" viewdefault="on" showlabel="true" display="number" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">الإنجاز المستوى</field-label>
+    <field-label lang="en_US">Achievement (Level)</field-label>
+    <field-label lang="es_ES">Logro (nivel)</field-label>
+    <field-label lang="fr_FR">Réalisation (Niveau)</field-label>
+    <field-label lang="pt_BR">Pontuação Final (Nível)</field-label>
+    <field-label lang="tr_TR">Başarı (Seviye)</field-label>
+    <field-label lang="zh_CN">完成值（等级）</field-label>
+    <field-description lang="ar_SA">الإنجاز المستوى</field-description>
+    <field-description lang="en_US">Achievement (Level)</field-description>
+    <field-description lang="es_ES">Logro (nivel)</field-description>
+    <field-description lang="fr_FR">Réalisation (Niveau)</field-description>
+    <field-description lang="pt_BR">Pontuação Final (Nível)</field-description>
+    <field-description lang="tr_TR">Başarı (Seviye)</field-description>
+    <field-description lang="zh_CN">完成值（等级）</field-description>
+  </field-definition>
+  <field-definition id="goal-score" type="number" required="false" detail="false" viewdefault="on" showlabel="true" display="number" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">النتائج  بالنقاط الوزن  X الإنجاز</field-label>
+    <field-label lang="en_US">Results in Points (Weight X Achievement)</field-label>
+    <field-label lang="es_ES">Resultado en Puntos (PesoxLogro)</field-label>
+    <field-label lang="fr_FR">Résultat en Points (PoidXRéalisation)</field-label>
+    <field-label lang="pt_BR">Resultado em Pontos (Peso X Pontuação Final)</field-label>
+    <field-label lang="tr_TR">Sonuç puanı (Ağırlık x Başarı)</field-label>
+    <field-label lang="zh_CN">结果分值（权重 X 完成值）</field-label>
+    <field-description lang="ar_SA">النتائج  بالنقاط الوزن  X الإنجاز</field-description>
+    <field-description lang="en_US">Results in Points (Weight X Achievement)</field-description>
+    <field-description lang="es_ES">Resultado en Puntos (PesoxLogro)</field-description>
+    <field-description lang="fr_FR">Résultat en Points (PoidXRéalisation)</field-description>
+    <field-description lang="pt_BR">Resultado em Pontos (Peso X Pontuação Final)</field-description>
+    <field-description lang="tr_TR">Sonuç puanı (Ağırlık x Başarı)</field-description>
+    <field-description lang="zh_CN">结果分值（权重 X 完成值）</field-description>
+    <field-format>###.##</field-format>
+  </field-definition>
+  <field-definition id="bizx-target" type="number" required="false" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="rollup" show-allow-rollup-override="false" rollup-calc-type="sum">
+    <field-label lang="ar_SA">النتائج  بالنقاط الوزن  X الإنجاز</field-label>
+    <field-label lang="en_US">Results in Points (Weight X Achievement)</field-label>
+    <field-label lang="es_ES">Resultado en Puntos (PesoxLogro)</field-label>
+    <field-label lang="fr_FR">Résultat en Points (PoidXRéalisation)</field-label>
+    <field-label lang="pt_BR">Resultado em Pontos (Peso X Pontuação Final)</field-label>
+    <field-label lang="tr_TR">Sonuç puanı (Ağırlık x Başarı)</field-label>
+    <field-label lang="zh_CN">结果分值（权重 X 完成值）</field-label>
+    <field-description lang="ar_SA">النتائج  بالنقاط الوزن  X الإنجاز</field-description>
+    <field-description lang="en_US">Results in Points (Weight X Achievement)</field-description>
+    <field-description lang="es_ES">Resultado en Puntos (PesoxLogro)</field-description>
+    <field-description lang="fr_FR">Résultat en Points (PoidXRéalisation)</field-description>
+    <field-description lang="pt_BR">Resultado em Pontos (Peso X Pontuação Final)</field-description>
+    <field-description lang="tr_TR">Sonuç puanı (Ağırlık x Başarı)</field-description>
+    <field-description lang="zh_CN">结果分值（权重 X 完成值）</field-description>
+    <field-format>###.##</field-format>
+  </field-definition>
+  <field-definition id="milestones" type="table" required="false" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">المتابعة الدورية القسم اختياري لمتابعة أهدافك</field-label>
+    <field-label lang="en_US">Periodic Tracking (optional section to track your goals)</field-label>
+    <field-label lang="es_ES">Seguimiento Periódico (sección opcional para hacer un seguimiento de sus objetivos)</field-label>
+    <field-label lang="fr_FR">Suivi périodique (section facultative pour le suivi des objectifs)</field-label>
+    <field-label lang="pt_BR">Acompanhamento Periódico (Os dados inseridos nos campos de acompanhamento não serão considerados para o pagamento de sua remuneração variável. Estes dados devem ser utilizados somente para acompanhamento periódico de seu painel. Sua pontuação final a ser considerada, será àquela informada no sistema, na etapa de apuração de resultados, em campo especifico.</field-label>
+    <field-label lang="tr_TR">Periyodik takip (hedeflerin takibi için opsiyonel bir seçenektir)</field-label>
+    <field-label lang="zh_CN">阶段性追踪</field-label>
+    <field-description lang="ar_SA">المتابعة الدورية القسم اختياري لمتابعة أهدافك</field-description>
+    <field-description lang="en_US">Periodic Tracking (optional section to track your goals)</field-description>
+    <field-description lang="es_ES">Seguimiento Periódico (sección opcional para hacer un seguimiento de sus objetivos)</field-description>
+    <field-description lang="fr_FR">Suivi périodique (section facultative pour le suivi des objectifs)</field-description>
+    <field-description lang="pt_BR">Acompanhamento Periódico (Os dados inseridos nos campos de acompanhamento não serão considerados para o pagamento de sua remuneração variável. Estes dados devem ser utilizados somente para acompanhamento periódico de seu painel. Sua pontuação final a ser considerada, será àquela informada no sistema, na etapa de apuração de resultados, em campo especifico.</field-description>
+    <field-description lang="tr_TR">Periyodik takip (hedeflerin takibi için opsiyonel bir seçenektir)</field-description>
+    <field-description lang="zh_CN">阶段性追踪</field-description>
+    <table-row-label lang="en_US">Periodic Tracking</table-row-label>
+    <table-row-label lang="pt_BR">Acompanhamento Periódico</table-row-label>
+    <table-column id="desc" type="text" required="false" width="60" cascade-update="push-down">
+      <column-label lang="ar_SA">الفترة</column-label>
+      <column-label lang="en_US">Period</column-label>
+      <column-label lang="es_ES">Periodo</column-label>
+      <column-label lang="fr_FR">Période</column-label>
+      <column-label lang="pt_BR">Período</column-label>
+      <column-label lang="tr_TR">Periyot</column-label>
+      <column-label lang="zh_CN">周期</column-label>
+      <column-description>Subobjective Name</column-description>
+    </table-column>
+    <table-column id="customNum1" type="number" required="false" width="8" cascade-update="push-down">
+      <column-label lang="ar_SA">هدف الاستحقاق 100</column-label>
+      <column-label lang="en_US">Accrual Goal 100</column-label>
+      <column-label lang="es_ES">Objetivo Acumulado 100</column-label>
+      <column-label lang="fr_FR">Objectif Cumulé 100</column-label>
+      <column-label lang="pt_BR">Meta Acumulada 100</column-label>
+      <column-label lang="tr_TR">Hedef, Seviye 100</column-label>
+      <column-label lang="zh_CN">100分位目标</column-label>
+      <column-description>Minimum</column-description>
+      <rating-value>100.0</rating-value>
+    </table-column>
+    <table-column id="customNum2" type="number" required="false" width="8" cascade-update="push-down">
+      <column-label lang="ar_SA">هدف الاستحقاق 300</column-label>
+      <column-label lang="en_US">Accrual Goal 300</column-label>
+      <column-label lang="es_ES">Objetivo Acumulado 300</column-label>
+      <column-label lang="fr_FR">Objectif Cumulé 300</column-label>
+      <column-label lang="pt_BR">Meta Acumulada 300</column-label>
+      <column-label lang="tr_TR">Hedef, Seviye 300</column-label>
+      <column-label lang="zh_CN">300分位目标</column-label>
+      <column-description>Target</column-description>
+      <rating-value>300.0</rating-value>
+    </table-column>
+    <table-column id="customNum3" type="number" required="false" width="8" cascade-update="push-down">
+      <column-label lang="ar_SA">هدف الاستحقاق 500</column-label>
+      <column-label lang="en_US">Accrual Goal 500</column-label>
+      <column-label lang="es_ES">Objetivo Acumulado 500</column-label>
+      <column-label lang="fr_FR">Objectif Cumulé 500</column-label>
+      <column-label lang="pt_BR">Meta Acumulada 500</column-label>
+      <column-label lang="tr_TR">Hedef, Seviye 500</column-label>
+      <column-label lang="zh_CN">500分位目标</column-label>
+      <column-description>Maximum</column-description>
+      <rating-value>500.0</rating-value>
+    </table-column>
+    <table-column id="actualNumber" type="number" required="false" width="8" cascade-update="push-down">
+      <column-label lang="ar_SA">حاصل الإستحقاق</column-label>
+      <column-label lang="en_US">Accrual Obtained Result</column-label>
+      <column-label lang="es_ES">Resultados Obtenidos Acumulados</column-label>
+      <column-label lang="fr_FR">Résultat Cumulé obtenu</column-label>
+      <column-label lang="pt_BR">Resultado Obtido Acumulado</column-label>
+      <column-label lang="tr_TR">Elde edilen sonuç</column-label>
+      <column-label lang="zh_CN">权责结果</column-label>
+      <column-description>Result</column-description>
+    </table-column>
+    <table-column id="rating" type="number" required="false" width="8" cascade-update="push-down">
+      <column-label lang="ar_SA">نقاط الاستحقاق</column-label>
+      <column-label lang="en_US">Accrual Score</column-label>
+      <column-label lang="es_ES">Puntuación Acumulada</column-label>
+      <column-label lang="fr_FR">Note cumulée</column-label>
+      <column-label lang="pt_BR">Pontuação Acumulada</column-label>
+      <column-label lang="tr_TR">Ulaşılan seviye</column-label>
+      <column-label lang="zh_CN">权责得分</column-label>
+      <column-description>Score</column-description>
+    </table-column>
+  </field-definition>
+  <field-definition id="interpolacao" type="number" required="false" detail="false" viewdefault="off" showlabel="true" reportable="field12" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="ar_SA">نتيجة هدف الاستحقاق</field-label>
+    <field-label lang="en_US">Accrual Goal Score</field-label>
+    <field-label lang="es_ES">Puntuación de Objetivos Acumulada</field-label>
+    <field-label lang="fr_FR">Note de l'objectif cumulé</field-label>
+    <field-label lang="pt_BR">Pontuação Parcial Acumulada</field-label>
+    <field-label lang="tr_TR">Dönem sonu ulaşılan seviye</field-label>
+    <field-label lang="zh_CN">权责目标分数</field-label>
+    <field-description lang="ar_SA">نتيجة هدف الاستحقاق</field-description>
+    <field-description lang="en_US">Accrual Goal Score</field-description>
+    <field-description lang="es_ES">Puntuación de Objetivos Acumulada</field-description>
+    <field-description lang="fr_FR">Note de l'objectif cumulé</field-description>
+    <field-description lang="pt_BR">Pontuação Parcial Acumulada</field-description>
+    <field-description lang="tr_TR">Dönem sonu ulaşılan seviye</field-description>
+    <field-description lang="zh_CN">权责目标分数</field-description>
+    <default-value>0.0</default-value>
+    <field-format>###.##</field-format>
+  </field-definition>
+  <field-definition id="bizx-actual" type="number" required="false" detail="false" viewdefault="off" showlabel="true" reportable="field4" field-show-coaching-advisor="false" cascade-update="regular">
+    <field-label lang="ar_SA">النتيجة المستحقة الوزن  X نتيجة هدف الاستحقاق</field-label>
+    <field-label lang="en_US">Weighted Score (Weight X Accrual Goal Score)</field-label>
+    <field-label lang="es_ES">Puntuación Ponderada (Peso*Puntuación de Objetivos Acumulada)</field-label>
+    <field-label lang="fr_FR">Note pondérée (Poid X Note de l'objectif cumulé)</field-label>
+    <field-label lang="pt_BR">Pontuação Parcial Ponderada (Peso X Pontuação Parcial Acumulada)</field-label>
+    <field-label lang="tr_TR">Ağırlıklandırılmış Skor (Ağırlık x Hedef seviyesi)</field-label>
+    <field-label lang="zh_CN">权重得分（权重 X 权责目标分数）</field-label>
+    <field-description lang="ar_SA">النتيجة المستحقة الوزن  X نتيجة هدف الاستحقاق</field-description>
+    <field-description lang="en_US">Weighted Score (Weight X Accrual Goal Score)</field-description>
+    <field-description lang="es_ES">Puntuación Ponderada (Peso*Puntuación de Objetivos Acumulada)</field-description>
+    <field-description lang="fr_FR">Note pondérée (Poid X Note de l'objectif cumulé)</field-description>
+    <field-description lang="pt_BR">Pontuação Parcial Ponderada (Peso X Pontuação Parcial Acumulada)</field-description>
+    <field-description lang="tr_TR">Ağırlıklandırılmış Skor (Ağırlık x Hedef seviyesi)</field-description>
+    <field-description lang="zh_CN">权重得分（权重 X 权责目标分数）</field-description>
+    <field-format>###.##</field-format>
+  </field-definition>
+  <obj-plan-states>
+    <obj-plan-state id="aberto" default="true">
+      <state-label lang="ar_SA">فتح</state-label>
+      <state-label lang="en_US">Open</state-label>
+      <state-label lang="es_ES">Abierto</state-label>
+      <state-label lang="fr_FR">Ouvert</state-label>
+      <state-label lang="pt_BR">Aberto</state-label>
+      <state-label lang="tr_TR">Açık</state-label>
+      <state-label lang="zh_CN">开放</state-label>
+      <action-label lang="ar_SA">فتح</action-label>
+      <action-label lang="en_US">Open</action-label>
+      <action-label lang="es_ES">Abierto</action-label>
+      <action-label lang="fr_FR">Ouvert</action-label>
+      <action-label lang="pt_BR">Aberto</action-label>
+      <action-label lang="tr_TR">Açık</action-label>
+      <action-label lang="zh_CN">开放</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[resultados]]></target-state>
+        <target-state><![CDATA[acompanhamento]]></target-state>
+        <target-state><![CDATA[fechado1]]></target-state>
+        <target-state><![CDATA[fechado2]]></target-state>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[]]></description>
+      </permission>
+      <permission for="bizx-request-update">
+        <description><![CDATA[Only managers and up can request a status update from the execution map]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[EMM]]></role-name>
+      </permission>
+      <permission for="create-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="delete-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="move-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[XX]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone.]]></description>
+      </permission>
+      <permission for="cascade-push">
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Nobody may align a goal to anyone's goal.]]></description>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee and direct manager may create goals in a user's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and direct manager may delete goals in his/her own plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee  may unalign a child goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and direct manager may move and indent goals in a user's plan.]]></description>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Only the employee may share and unshare goals in his/her own plan.]]></description>
+      </permission>
+      <field-permission type="write">
+        <description><![CDATA[The owner and manager may write to all fields]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="weight"/>
+        <field refid="milestones"/>
+      </field-permission>
+      <field-permission type="read">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="control-category-element"/>
+        <field refid="name"/>
+        <field refid="desc"/>
+        <field refid="weight"/>
+        <field refid="Fromlibrary"/>
+        <field refid="metric"/>
+        <field refid="interpolacao"/>
+        <field refid="bizx-actual"/>
+        <field refid="metric-lookup-table"/>
+        <table-col id="rating" field-refid="metric-lookup-table"/>
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="library"/>
+      </field-permission>
+    </obj-plan-state>
+    <obj-plan-state id="fechado1">
+      <state-label lang="ar_SA">مغلق</state-label>
+      <state-label lang="en_US">Closed</state-label>
+      <state-label lang="es_ES">Cerrado</state-label>
+      <state-label lang="fr_FR">Fermé</state-label>
+      <state-label lang="pt_BR">Fechado</state-label>
+      <state-label lang="tr_TR">Kapalı</state-label>
+      <state-label lang="zh_CN">关闭</state-label>
+      <action-label lang="ar_SA">مغلق</action-label>
+      <action-label lang="en_US">Closed</action-label>
+      <action-label lang="es_ES">Cerrado</action-label>
+      <action-label lang="fr_FR">Fermé</action-label>
+      <action-label lang="pt_BR">Fechado</action-label>
+      <action-label lang="tr_TR">Kapalı</action-label>
+      <action-label lang="zh_CN">关闭</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[resultados]]></target-state>
+        <target-state><![CDATA[aberto]]></target-state>
+        <target-state><![CDATA[acompanhamento]]></target-state>
+        <target-state><![CDATA[fechado2]]></target-state>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[]]></description>
+      </permission>
+      <permission for="bizx-request-update">
+        <description><![CDATA[Only managers and up can request a status update from the execution map]]></description>
+      </permission>
+      <permission for="create-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <field refid="metric-lookup-table"/>
+      </permission>
+      <permission for="delete-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <field refid="metric-lookup-table"/>
+      </permission>
+      <permission for="move-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[XX]]></role-name>
+        <field refid="metric-lookup-table"/>
+      </permission>
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone.]]></description>
+      </permission>
+      <permission for="cascade-push">
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Nobody may align a goal to anyone's goal.]]></description>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee and direct manager may create goals in a user's plan.]]></description>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and direct manager may delete goals in his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee  may unalign a child goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and direct manager may move and indent goals in a user's plan.]]></description>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Only the employee may share and unshare goals in his/her own plan.]]></description>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="control-category-element"/>
+        <field refid="name"/>
+        <field refid="desc"/>
+        <field refid="weight"/>
+        <field refid="metric"/>
+        <field refid="interpolacao"/>
+        <field refid="Fromlibrary"/>
+        <field refid="bizx-actual"/>
+        <field refid="bizx-target"/>
+        <field refid="milestones"/>
+        <field refid="metric-lookup-table"/>
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="library"/>
+      </field-permission>
+    </obj-plan-state>
+    <obj-plan-state id="fechado2">
+      <state-label lang="ar_SA">مغلق</state-label>
+      <state-label lang="en_US">Closed</state-label>
+      <state-label lang="es_ES">Cerrado</state-label>
+      <state-label lang="fr_FR">Fermé</state-label>
+      <state-label lang="pt_BR">Fechado</state-label>
+      <state-label lang="tr_TR">Kapalı</state-label>
+      <state-label lang="zh_CN">关闭</state-label>
+      <action-label lang="ar_SA">مغلق</action-label>
+      <action-label lang="en_US">Closed</action-label>
+      <action-label lang="es_ES">Cerrado</action-label>
+      <action-label lang="fr_FR">Fermé</action-label>
+      <action-label lang="pt_BR">Fechado</action-label>
+      <action-label lang="tr_TR">Kapalı</action-label>
+      <action-label lang="zh_CN">关闭</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[resultados]]></target-state>
+        <target-state><![CDATA[aberto]]></target-state>
+        <target-state><![CDATA[acompanhamento]]></target-state>
+        <target-state><![CDATA[fechado1]]></target-state>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[]]></description>
+      </permission>
+      <permission for="bizx-request-update">
+        <description><![CDATA[Only managers and up can request a status update from the execution map]]></description>
+      </permission>
+      <permission for="create-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <field refid="metric-lookup-table"/>
+      </permission>
+      <permission for="delete-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <field refid="metric-lookup-table"/>
+      </permission>
+      <permission for="move-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[XX]]></role-name>
+        <field refid="metric-lookup-table"/>
+      </permission>
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone.]]></description>
+      </permission>
+      <permission for="cascade-push">
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Nobody may align a goal to anyone's goal.]]></description>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee and direct manager may create goals in a user's plan.]]></description>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and direct manager may delete goals in his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee  may unalign a child goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and direct manager may move and indent goals in a user's plan.]]></description>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Only the employee may share and unshare goals in his/her own plan.]]></description>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="control-category-element"/>
+        <field refid="name"/>
+        <field refid="desc"/>
+        <field refid="weight"/>
+        <field refid="metric"/>
+        <field refid="Fromlibrary"/>
+        <field refid="milestones"/>
+        <field refid="metric-lookup-table"/>
+        <field refid="actual-achievement"/>
+        <field refid="rating"/>
+        <field refid="bizx-target"/>
+        <field refid="interpolacao"/>
+        <field refid="bizx-actual"/>
+        <table-col id="rating" field-refid="metric-lookup-table"/>
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="library"/>
+      </field-permission>
+    </obj-plan-state>
+    <obj-plan-state id="acompanhamento">
+      <state-label lang="ar_SA">متابعة</state-label>
+      <state-label lang="en_US">Follow-up</state-label>
+      <state-label lang="es_ES">Seguimiento</state-label>
+      <state-label lang="fr_FR">Suivi</state-label>
+      <state-label lang="pt_BR">Acompanhamento</state-label>
+      <state-label lang="tr_TR">Takip</state-label>
+      <state-label lang="zh_CN">跟进</state-label>
+      <action-label lang="ar_SA">متابعة</action-label>
+      <action-label lang="en_US">Follow-up</action-label>
+      <action-label lang="es_ES">Seguimiento</action-label>
+      <action-label lang="fr_FR">Suivi</action-label>
+      <action-label lang="pt_BR">Acompanhamento</action-label>
+      <action-label lang="tr_TR">Takip</action-label>
+      <action-label lang="zh_CN">跟进</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[resultados]]></target-state>
+        <target-state><![CDATA[aberto]]></target-state>
+        <target-state><![CDATA[fechado1]]></target-state>
+        <target-state><![CDATA[fechado2]]></target-state>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[]]></description>
+      </permission>
+      <permission for="bizx-request-update">
+        <description><![CDATA[Only managers and up can request a status update from the execution map]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[EMM]]></role-name>
+      </permission>
+      <permission for="create-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="delete-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="move-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[XX]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone.]]></description>
+      </permission>
+      <permission for="cascade-push">
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Nobody may align a goal to anyone's goal.]]></description>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee and direct manager may create goals in a user's plan.]]></description>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and direct manager may delete goals in his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee  may unalign a child goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and direct manager may move and indent goals in a user's plan.]]></description>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Only the employee may share and unshare goals in his/her own plan.]]></description>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="control-category-element"/>
+        <field refid="name"/>
+        <field refid="desc"/>
+        <field refid="Fromlibrary"/>
+        <field refid="weight"/>
+        <field refid="metric"/>
+        <field refid="interpolacao"/>
+        <field refid="bizx-actual"/>
+        <field refid="metric-lookup-table"/>
+        <table-col id="rating" field-refid="metric-lookup-table"/>
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="library"/>
+      </field-permission>
+    </obj-plan-state>
+    <obj-plan-state id="resultados">
+      <state-label lang="ar_SA">النتائج</state-label>
+      <state-label lang="en_US">Results</state-label>
+      <state-label lang="es_ES">Resultados</state-label>
+      <state-label lang="fr_FR">Résultats</state-label>
+      <state-label lang="pt_BR">Resultados</state-label>
+      <state-label lang="tr_TR">Sonuçlar</state-label>
+      <state-label lang="zh_CN">结果</state-label>
+      <action-label lang="ar_SA">النتائج</action-label>
+      <action-label lang="en_US">Results</action-label>
+      <action-label lang="es_ES">Resultados</action-label>
+      <action-label lang="fr_FR">Résultats</action-label>
+      <action-label lang="pt_BR">Resultados</action-label>
+      <action-label lang="tr_TR">Sonuçlar</action-label>
+      <action-label lang="zh_CN">结果</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[aberto]]></target-state>
+        <target-state><![CDATA[acompanhamento]]></target-state>
+        <target-state><![CDATA[fechado1]]></target-state>
+        <target-state><![CDATA[fechado2]]></target-state>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[]]></description>
+      </permission>
+      <permission for="bizx-request-update">
+        <description><![CDATA[Only managers and up can request a status update from the execution map]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[EMM]]></role-name>
+      </permission>
+      <permission for="create-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="delete-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="move-row">
+        <description><![CDATA[NONE a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[XX]]></role-name>
+        <field refid="milestones"/>
+      </permission>
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone.]]></description>
+      </permission>
+      <permission for="cascade-push">
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Nobody may align a goal to anyone's goal.]]></description>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee and direct manager may create goals in a user's plan.]]></description>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and direct manager may delete goals in his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee  may unalign a child goal from his/her own plan.]]></description>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and direct manager may move and indent goals in a user's plan.]]></description>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Only the employee may share and unshare goals in his/her own plan.]]></description>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="control-category-element"/>
+        <field refid="name"/>
+        <field refid="desc"/>
+        <field refid="weight"/>
+        <field refid="Fromlibrary"/>
+        <field refid="metric"/>
+        <field refid="milestones"/>
+        <field refid="metric-lookup-table"/>
+        <field refid="actual-achievement"/>
+        <field refid="rating"/>
+        <field refid="interpolacao"/>
+        <field refid="bizx-actual"/>
+        <table-col id="rating" field-refid="metric-lookup-table"/>
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Read Only Permissions]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="library"/>
+      </field-permission>
+    </obj-plan-state>
+  </obj-plan-states>
+  <calculator id="zero"><![CDATA[0]]></calculator>
+  <calculator id="totalPoints"><![CDATA[(rating*weight)/100]]></calculator>
+  <calculator id="testeMediaCalc"><![CDATA[FUNC.avg(milestones.rating)]]></calculator>
+  <calculator id="cSomaMinimo"><![CDATA[FUNC.sum(milestones.customNum1)]]></calculator>
+  <calculator id="cSomaMedio"><![CDATA[FUNC.sum(milestones.customNum2)]]></calculator>
+  <calculator id="cSomaMaximo"><![CDATA[FUNC.sum(milestones.customNum3)]]></calculator>
+  <calculator id="cSomaAting"><![CDATA[FUNC.sum(milestones.actualNumber)]]></calculator>
+  <calculator id="cInterpolaPonderada"><![CDATA[(weight/100)*interpolacao]]></calculator>
+  <auto-population field="goal-score" mode="auto" calc-type="col">
+    <rule>
+      <calculated-result calculator-id="totalPoints"/>
+    </rule>
+    <rule>
+      <calculated-result calculator-id="zero"/>
+    </rule>
+  </auto-population>
+  <auto-population field="milestones" column="rating" mode="auto" calc-type="col">
+    <rule>
+      <calculated-result calculator-id="GM_SUB_GOAL_RATING_OF_MILESTONES"/>
+    </rule>
+  </auto-population>
+  <auto-population field="bizx-actual" mode="auto" calc-type="col">
+    <rule>
+      <calculated-result calculator-id="cInterpolaPonderada"/>
+    </rule>
+  </auto-population>
+  <auto-population field="bizx-target" mode="auto" calc-type="col">
+    <rule>
+      <calculated-result calculator-id="totalPoints"/>
+    </rule>
+  </auto-population>
+  <plan-layout>
+    <column weight="26.0">
+      <field refid="name"/>
+      <field refid="metric-lookup-table"/>
+    </column>
+    <column weight="25.0">
+      <field refid="desc"/>
+      <field refid="milestones"/>
+    </column>
+    <column weight="7.0">
+      <field refid="weight"/>
+    </column>
+    <column weight="7.0">
+      <field refid="metric"/>
+    </column>
+    <column weight="7.0">
+      <field refid="actual-achievement"/>
+    </column>
+    <column weight="7.0">
+      <field refid="rating"/>
+    </column>
+    <column weight="7.0">
+      <field refid="bizx-target"/>
+    </column>
+    <column weight="7.0">
+      <field refid="interpolacao"/>
+    </column>
+    <column weight="7.0">
+      <field refid="bizx-actual"/>
+    </column>
+  </plan-layout>
+  <form-layout><![CDATA[## Consider displaying goal category (if applicable) if mapping goals across all categories in one objective section #set ($group = "name-metric") 
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" style="padding: 5px 0px;">#if ($display.name) <b>${label.name}:</b>&nbsp;${field.name} #end</td>
+  </tr>
+</table>## turn off grouping for subsequent fields 
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.category) <b>${label.category}:</b><br>
+     ${field.category} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+
+    <td style="padding: 5px 0px;">#if ($display.Fromlibrary) <b>${label.Fromlibrary}:</b><br>
+     ${field.Fromlibrary} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.desc) <b>${label.desc}:</b><br>
+     ${field.desc} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.weight) <b>${label.weight}:</b><br>
+     ${field.weight} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.metric) <b>${label.metric}:</b><br>
+     ${field.metric} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+
+    <td style="padding: 5px 0px; vertical-align: top;">#if ($display.actual-achievement) <b>${label.actual-achievement}:</b><br>
+     ${field.actual-achievement} #end</td>
+  </tr>
+
+  <tr>
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.goal-score) <b>${label.goal-score}:</b><br>
+     ${field.goal-score} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.interpolacao) <b>${label.interpolacao}:</b><br>
+     ${field.interpolacao} #end</td>
+
+    <td>&nbsp;&nbsp;</td>
+
+    <td style="padding: 5px 0px; vertical-align:top;">#if ($display.bizx-actual) <b>${label.bizx-actual}:</b><br>
+     ${field.bizx-actual} #end</td>
+  </tr>
+</table>#if ($display.metric-lookup-table) #end #if ($display.milestones) #end 
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+  <tr>
+    <td width="25%" style="display: none; vertical-align: top; padding: 5px 0px;" id="${util.newHiddenDivId()}"><b>${label.metric-lookup-table}:</b><br>
+     ${field.metric-lookup-table}</td>
+
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td width="75%" style="display: none; vertical-align: top; padding: 5px 0px;" id="${util.newHiddenDivId()}"><b>${label.milestones}:</b><br>
+     ${field.milestones}</td>
+  </tr>
+</table>]]></form-layout>
+  <pdf-layout><![CDATA[${field.category} #if ($display.name) ${label.name}${field.name} #end #if ($display.desc) ${label.desc}${field.desc} #end #if ($display.weight) ${label.weight}${field.weight} #end #if ($display.state) ${label.state}${field.state} #end #if $display.targets) ${label.targets}${field.targets} #end ${row.end} ${row.start} #if ($display.tasks) ${label.tasks}${field.tasks} #end ${row.end}]]></pdf-layout>
+  <details-layout><![CDATA[#if ($display.assignee) #end #if ($display.category) #end #if ($display.name) #end #if ($display.desc) #end #if ($display.desc) #end #if ($display.state) #end #if ($display.start) #end #if ($display.due) #end #if ($display.done) #end #if ($display.targets) #end #if ($display.tasks) #end #if ($display.public) #end 
+
+<table width="100%" cellpadding="3" cellspacing="3">
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.assignee}:</b></td>
+
+    <td valign="top">${field.assignee}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.category}:</b></td>
+
+    <td valign="top">${field.category}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.name}:</b></td>
+
+    <td valign="top">${field.name}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.desc}:</b></td>
+
+    <td valign="top">${field.desc}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.desc}:</b></td>
+
+    <td valign="top">${field.desc}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.state}:</b></td>
+
+    <td valign="top">${field.state}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.due}:</b></td>
+
+    <td valign="top">${field.due}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b style='white-space:nowrap'>${label.done}:</b></td>
+
+    <td valign="top">${field.done}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.targets}:</b></td>
+
+    <td valign="top">${field.targets}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.tasks}:</b></td>
+
+    <td valign="top">${field.tasks}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.public}:</b></td>
+
+    <td valign="top">${field.public}</td>
+  </tr>
+</table>]]></details-layout>
+</obj-plan-template>
